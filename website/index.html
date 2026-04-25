@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flyo | Intelligent Flight Delay Monitoring</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <img src="logo.png" alt="Flyo Logo">
+            <span class="logo-text">Flyo</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how-it-works">How it Works</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+        </ul>
+        <a href="https://wa.me/YOUR_TWILIO_NUMBER" class="btn btn-primary" style="padding: 0.8rem 1.5rem;">Try Demo</a>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <span class="badge">✈️ Trusted by 5,000+ Travelers</span>
+            <h1>Never get stuck at the gate again.</h1>
+            <p>Flyo monitors your flight in real-time and sends instant WhatsApp alerts the moment a delay is detected. Proactive, powerful, and painless.</p>
+            <div class="cta-group">
+                <a href="#" class="btn btn-primary">Start Tracking Now</a>
+                <a href="#features" class="btn btn-outline">See Features</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="feature-card">
+            <div class="icon">📱</div>
+            <h3>WhatsApp Native</h3>
+            <p>No new apps to download. Get alerts right where you already chat with friends and family.</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">⚡</div>
+            <h3>Real-Time Engine</h3>
+            <p>Our servers poll global aviation data every 5 minutes to catch delays before the airport screens do.</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">🛡️</div>
+            <h3>Smart Logic</h3>
+            <p>Customizable thresholds. Only get notified for significant changes that actually affect your travel.</p>
+        </div>
+    </section>
+
+    <section class="showcase">
+        <div class="hero-content">
+            <h2>Experience the magic.</h2>
+            <p>Simple commands, powerful results. Just send a flight number and let Flyo do the rest. We handle the complexity of global flight tracking so you can focus on your journey.</p>
+            <br>
+            <ul style="list-style: none; color: var(--text-muted);">
+                <li style="margin-bottom: 10px;">✅ Automatic Gate Change Alerts</li>
+                <li style="margin-bottom: 10px;">✅ Arrival Time Estimations</li>
+                <li style="margin-bottom: 10px;">✅ Multi-Flight Tracking</li>
+            </ul>
+        </div>
+        <div class="phone-mockup">
+            <div class="whatsapp-header">Flyo Tracker</div>
+            <div class="chat-area">
+                <div class="msg" style="animation-delay: 1s;">6E 2045</div>
+                <div class="msg" style="background: #dcf8c6; align-self: flex-end; margin-left: auto; animation-delay: 2s;">
+                    ✅ <b>Tracking 6E 2045</b><br>
+                    DEL → BOM<br>
+                    Status: On Time
+                </div>
+                <div class="msg" style="background: #fff; margin-top: 30px; border-left: 4px solid #ff4444; animation-delay: 4s;">
+                    ⚠️ <b>Delay Alert</b><br>
+                    Flight 6E 2045 is now delayed by <b>45 minutes</b>.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Flyo Technologies. Built for the modern traveler.</p>
+    </footer>
+
+    <script>
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

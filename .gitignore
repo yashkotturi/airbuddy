@@ -1,0 +1,14 @@
+# Secrets and Config
+.env
+flysec.env
+config.py
+__pycache__/
+*.pyc
+
+# Data
+flights.db
+
+# Environment
+venv/
+.venv/
+.gemini/
