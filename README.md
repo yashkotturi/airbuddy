@@ -142,24 +142,6 @@ AirBuddy is not just another API project — it is **engineered for efficiency**
 
 ---
 
-## 🤝 Contributing
-Contributions are welcome!
-```bash
-# Fork → Create branch → Commit → PR
-```
-
----
-
-## 📄 License
-MIT License
-
----
-
 ## 👩‍💻 Author
 **Yashita Kotturi**
 * GitHub: [https://github.com/yashkotturi](https://github.com/yashkotturi)
-
----
-
-## ⭐ If you like this project
-Give it a star ⭐ — it helps a lot!
